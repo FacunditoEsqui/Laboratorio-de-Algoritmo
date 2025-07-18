@@ -55,4 +55,4 @@ Matriz[Fila2] = [numA1, numA2, numA3]
 
 Matriz[Fila1] = [numB1, numB2, numB3]
 
-print("Asi quedo la matriz: ", Matriz)
+print("RESULTADO: ", Matriz)
