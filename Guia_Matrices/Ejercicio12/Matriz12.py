@@ -36,27 +36,26 @@ for i in range(columnas):
         if j == col1:
             p = p +1
             if p == 1:
-                numa1 = Matriz[i][j]
+                numA1 = Matriz[i][j]
             if p == 2:
-                numa2 = Matriz[i][j]
+                numA2 = Matriz[i][j]
             if p == 3:
-                numa3 = Matriz[i][j]
+                numA3 = Matriz[i][j]
         
         if j == col2:
             q = q +1
             if q == 1:
-                numb1 = Matriz[i][j]
+                numB1 = Matriz[i][j]
             if q == 2:
-                numb2 = Matriz[i][j]
+                numB2 = Matriz[i][j]
             if q == 3:
-                numb3 = Matriz[i][j]
+                numB3 = Matriz[i][j]
 
-Matriz[0][col2] = numa1
-Matriz[1][col2] = numa2
-Matriz[2][col2] = numa3
+Matriz[0][col2] = numA1
+Matriz[1][col2] = numA2
+Matriz[2][col2] = numA3
+Matriz[0][col1] = numB1
+Matriz[1][col1] = numB2
+Matriz[2][col1] = numB3
 
-Matriz[0][col1] = numb1
-Matriz[1][col1] = numb2
-Matriz[2][col1] = numb3
-
-print("Asi quedo la matriz: ", Matriz)
+print("RESULTADO: ", Matriz)
