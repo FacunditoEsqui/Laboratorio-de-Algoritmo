@@ -1,20 +1,20 @@
 Matriz = [
-[0, 4, -2],
-[5, 0, -3],
-[0, 2, 0]
+[8, 9, -2],
+[12, 6, -5],
+[17, 2, 10]
 ]
 
 columnas = 3
 
-Fila = int(input("Selecciona una fila de la matriz (del 0 al 2) para sumarla: "))
+Fila = int(input("Elegi fila de la matriz (del 0 al 2) para sumarla: "))
 
 while Fila > 2:
-    print ("HACE CASO")
-    Fila = int(input("Selecciona una fila de la matriz (del 0 al 2): "))
+    print ("elegi del 0 al 2")
+    Fila = int(input("Elegi fila de la matriz (del 0 al 2): "))
 
 while Fila < 0:
-    print ("HACE CASO")
-    Fila = int(input("Selecciona una fila de la matriz (del 0 al 2): "))
+    print ("elegi del 0 al 2")
+    Fila = int(input("Elegi fila de la matriz (del 0 al 2): "))
 
 p = 0
 
