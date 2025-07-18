@@ -6,26 +6,26 @@ Matriz = [
 
 columnas = 3
 
-col1 = int(input("Selecciona una columna de la matriz (del 0 al 2) para intercambiar: "))
+col1 = int(input("Elegi columna de la matriz (del 0 al 2) para intercambiar: "))
 
 while col1 > 2:
     print ("HACE CASO")
-    col1 = int(input("Selecciona una columna de la matriz (del 0 al 2) para intercambiar: "))
+    col1 = int(input("Elegi columna de la matriz (del 0 al 2) para intercambiar: "))
 
 while col1 < 0:
     print ("HACE CASO")
-    col1 = int(input("Selecciona una columna de la matriz (del 0 al 2) para intercambiar: "))
+    col1 = int(input("Elegi columna de la matriz (del 0 al 2) para intercambiar: "))
 
 
-col2 = int(input("Selecciona una columna de la matriz (del 0 al 2) para intercambiar: "))
+col2 = int(input("Elegi columna de la matriz (del 0 al 2) para intercambiar: "))
 
 while col2 > 2:
     print ("HACE CASO")
-    col2 = int(input("Selecciona una columna de la matriz (del 0 al 2) para intercambiar: "))
+    col2 = int(input("Elegi columna de la matriz (del 0 al 2) para intercambiar: "))
 
 while col2 < 0:
     print ("HACE CASO")
-    col2 = int(input("Selecciona una columna de la matriz (del 0 al 2) para intercambiar: "))
+    col2 = int(input("Elegi columna de la matriz (del 0 al 2) para intercambiar: "))
 
 
 q = 0
