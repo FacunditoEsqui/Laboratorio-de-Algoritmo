@@ -1,21 +1,21 @@
 Matriz = [
-[1, 4, -2],
-[5, 10, -3],
-[12, 2, 8]
+[8, 9, -2],
+[12, 6, -5],
+[17, 2, 10]
 ]
 
 columnas = 3
-elegido = int(input("Elija un numero para buscar en la matriz: "))
+elegido = int(input("Elegi un numero para buscar: "))
 
-p = 0
+t = 0
 
 for i in range(columnas):
     for j in range(columnas): 
-        p = p + 1
+        t = t + 1
         if Matriz[i][j] == elegido:
             posicion = (i, j)
-            print("Tu numero esta en la posicion: ", posicion)
+            print("El numero esta en la posicion: ", posicion)
 
-        elif p == 9:
-            print("Tu numero no esta en la matriz ")
+        elif t == 9:
+            print("El numero no esta en la matriz ")
 
