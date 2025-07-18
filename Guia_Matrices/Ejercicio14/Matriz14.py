@@ -12,35 +12,35 @@ for i in range(columnas):
     for j in range(columnas): 
             p = p +1
             if p == 1:
-                num1 = Matriz[i][j]
+                numA = Matriz[i][j]
             if p == 2:
-                num2 = Matriz[i][j]
+                numB = Matriz[i][j]
             if p == 3:
-                num3 = Matriz[i][j]
+                numC = Matriz[i][j]
             if p == 4:
-                num4 = Matriz[i][j]
+                numD = Matriz[i][j]
             if p == 5:
-                num5 = Matriz[i][j]
+                numE = Matriz[i][j]
             if p == 6:
-                num6 = Matriz[i][j]
+                numF = Matriz[i][j]
             if p == 7:
-                num7 = Matriz[i][j]
+                numG = Matriz[i][j]
             if p == 8:
-                num8 = Matriz[i][j]
+                numH = Matriz[i][j]
             if p == 9:
-                num9 = Matriz[i][j]
+                numI = Matriz[i][j]
 
 
-Matriz[0][0] = num2
-Matriz[0][1] = num3
-Matriz[0][2] = num4
+Matriz[0][0] = numB
+Matriz[0][1] = numC
+Matriz[0][2] = numD
 
-Matriz[1][0] = num5
-Matriz[1][1] = num6
-Matriz[1][2] = num7
+Matriz[1][0] = numE
+Matriz[1][1] = numF
+Matriz[1][2] = numG
 
-Matriz[2][0] = num8
-Matriz[2][1] = num9
-Matriz[2][2] = num1
+Matriz[2][0] = numH
+Matriz[2][1] = numI
+Matriz[2][2] = numA
 
 print(Matriz)
