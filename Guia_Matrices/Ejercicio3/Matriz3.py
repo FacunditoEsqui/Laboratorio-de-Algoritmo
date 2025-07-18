@@ -7,15 +7,15 @@ Matriz = [
 columnas = 3
 numeroMayor = -99999
 
-Fila = int(input("Selecciona una fila de la matriz (del 0 al 2): "))
+Fila = int(input("Elegi fila de la matriz (del 0 al 2): "))
 
 while Fila > 2:
-    print ("HACE CASO")
-    Fila = int(input("Selecciona una fila de la matriz (del 0 al 2): "))
+    print ("elegi del 0 al 2")
+    Fila = int(input("Elegi fila de la matriz (del 0 al 2): "))
 
 while Fila < 0:
-    print ("HACE CASO")
-    Fila = int(input("Selecciona una fila de la matriz (del 0 al 2): "))
+    print ("elegi del 0 al 2")
+    Fila = int(input("Elegi fila de la matriz (del 0 al 2): "))
 
 for i in range(columnas):
     for j in range(columnas): 
