@@ -6,15 +6,15 @@ Matriz = [
 
 columnas = 3
 
-col = int(input("Selecciona una columna de la matriz (del 0 al 2) para sumarla: "))
+col = int(input("Elegi columna de la matriz (del 0 al 2) para sumarla: "))
 
 while col > 2:
     print ("elegi del 0 al 2")
-    col = int(input("Selecciona una columna de la matriz (del 0 al 2): "))
+    col = int(input("Elegi columna de la matriz (del 0 al 2): "))
 
 while col < 0:
     print ("elegi del 0 al 2")
-    col = int(input("Selecciona una columna de la matriz (del 0 al 2): "))
+    col = int(input("Elegi columna de la matriz (del 0 al 2): "))
 
 p = 0
 
