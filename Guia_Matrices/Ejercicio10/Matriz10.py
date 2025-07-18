@@ -1,7 +1,7 @@
 Matriz = [
-[0, 4, -2],
-[5, 0, -3],
-[0, 2, 0]
+[7, 4, -1],
+[4, 7, -9],
+[6, 1, 2]
 ]
 
 columnas = 3
@@ -9,11 +9,11 @@ columnas = 3
 col = int(input("Selecciona una columna de la matriz (del 0 al 2) para sumarla: "))
 
 while col > 2:
-    print ("HACE CASO")
+    print ("elegi del 0 al 2")
     col = int(input("Selecciona una columna de la matriz (del 0 al 2): "))
 
 while col < 0:
-    print ("HACE CASO")
+    print ("elegi del 0 al 2")
     col = int(input("Selecciona una columna de la matriz (del 0 al 2): "))
 
 p = 0
