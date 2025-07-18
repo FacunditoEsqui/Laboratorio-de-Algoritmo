@@ -1,7 +1,7 @@
 Matriz = [
-[0, 4, -2],
-[5, 0, -3],
-[0, 2, 0]
+[4, 8, 3],
+[9, 7, 5],
+[8, 1, 4]
 ]
 
 columnas = 3
@@ -12,4 +12,4 @@ for i in range(columnas):
         if Matriz[i][j] > 0:
             positivos = positivos +1
 
-print("Tu matriz tiene ", positivos, " numeros positivos")
+print("La matriz ", positivos, " positivos")
