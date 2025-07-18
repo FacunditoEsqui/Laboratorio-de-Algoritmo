@@ -31,4 +31,4 @@ for i in range(columnas):
 
 suma = num1 + num2 + num3
 
-print("La suma de la columna es: ", suma)
+print("RESULTADO: ", suma)
